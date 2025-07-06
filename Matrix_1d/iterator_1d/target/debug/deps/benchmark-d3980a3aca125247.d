@@ -1,6 +1,0 @@
-/home/stefan/Downloads/perf/Matrix_1D/iterator_1d/target/debug/deps/benchmark-d3980a3aca125247.d: src/main.rs src/test.rs
-
-/home/stefan/Downloads/perf/Matrix_1D/iterator_1d/target/debug/deps/libbenchmark-d3980a3aca125247.rmeta: src/main.rs src/test.rs
-
-src/main.rs:
-src/test.rs:
