@@ -1,0 +1,17 @@
+# started on Mon Jul  7 08:18:03 2025
+
+23869845929,,cpu_atom/cycles/,345116,0,00,3,GHz
+31604555699,,cpu_core/cycles/,6090088539,99,00,5,GHz
+22761230153,,cpu_atom/instructions/,345116,0,00,0,insn per cycle
+107939840684,,cpu_core/instructions/,6090088539,99,00,3,insn per cycle
+241029517,,cpu_atom/cache-references/,345116,0,00,39,M/sec
+825651781,,cpu_core/cache-references/,6090088539,99,00,135,M/sec
+82696172,,cpu_atom/cache-misses/,345116,0,00,34,of all cache refs
+1448330,,cpu_core/cache-misses/,6090088539,99,00,0,of all cache refs
+4230263914,,cpu_atom/branches/,345116,0,00,694,M/sec
+26901805284,,cpu_core/branches/,6090088539,99,00,4,G/sec
+179598579,,cpu_atom/branch-misses/,345116,0,00,4,of all branches
+8558062,,cpu_core/branch-misses/,6090088539,99,00,0,of all branches
+3093853329,,cpu_atom/br_inst_retired.cond/,345116,0,00,507,M/sec
+26865750240,,cpu_core/br_inst_retired.cond/,6090088539,99,00,4,G/sec
+6090,43,msec,task-clock,6090433655,100,00,1,CPUs utilized
