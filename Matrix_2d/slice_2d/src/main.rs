@@ -43,11 +43,10 @@ fn main() {
     let kerne: Vec<CoreId> = get_core_ids().unwrap();
     set_for_current(kerne[0]);
 
-    let größen: &[usize] = &[4, 8, 11, 16, 25, 32, 64, 91, 128, 256, 357, 512, 787, 1024]; 
+    let größen: &[usize] = &[4, 8, 11, 16, 25, 32, 64, 91, 128, 256, 357, 512, 667, 780, 888, 951, 1024, 1211, 1380, 1499, 1555, 1600]; 
 
     // Benchmark mit den einzelnen Matrixgrößen durchführen
-    println!("Durchlauf:");
-    for i in 0..30 {
+    for _ in 0..20 {
         for &n in größen {
             // Matrizen intialisieren
             let a: Vec<Vec<f64>> = zufallsmatrix_2d(n);
@@ -56,6 +55,6 @@ fn main() {
 
             slice_2d(&a, &b, &mut c, n);
         }
-        println!("{}/30", i);
     }
+    println!("Benchmark fertig");
 }
