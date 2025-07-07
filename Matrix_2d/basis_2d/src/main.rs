@@ -47,7 +47,7 @@ fn main() {
     let größen: &[usize] = &[4, 8, 11, 16, 25, 32, 64, 91, 128, 256, 357, 512, 667, 780, 888, 951, 1024, 1211, 1380, 1499, 1555, 1600]; 
 
     // Benchmark mit den einzelnen Matrixgrößen durchführen
-    for _ in 0..30 {
+    for _ in 0..20 {
         for &n in größen {
             // Matrizen intialisieren
             let a: Vec<Vec<f64>> = zufallsmatrix_2d(n);
